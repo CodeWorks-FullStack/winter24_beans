@@ -15,3 +15,20 @@ nav {
   /* NOTE we would need to get fancy to have this only apply behind the text */
   /* filter: brightness(.5); */
 }
+
+.playfair {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair", serif;
+  font-weight: 800;
+}
